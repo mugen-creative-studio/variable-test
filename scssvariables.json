@@ -1,0 +1,403 @@
+/ CC Blue Color Palette
+$ccblue-50: #F7FAFE;
+$ccblue-100: #E6EAEF;
+$ccblue-200: #B6C1D8;
+$ccblue-300: #92A5C8;
+$ccblue-400: #6E88B9;
+$ccblue-500: #4D6CA8;
+$ccblue-600: #3B5587;
+$ccblue-700: #324975;
+$ccblue-800: #2C3F63;
+$ccblue-900: #193765;
+
+// CC Grey Color Palette
+$ccgrey-50: #F9FAFB;
+$ccgrey-100: #F3F4F6;
+$ccgrey-200: #E5E7EB;
+$ccgrey-300: #D1D5DB;
+$ccgrey-400: #9CA3AF;
+$ccgrey-500: #6B7280;
+$ccgrey-600: #4B5563;
+$ccgrey-700: #374151;
+$ccgrey-800: #1F2937;
+$ccgrey-900: #111827;
+
+// Black Color Palette
+$ccblack-50: #EBEBEB;
+$ccblack-100: #CECECE;
+$ccblack-200: #A7A7A7;
+$ccblack-300: #7E7E7E;
+$ccblack-400: #585858;
+$ccblack-500: #333333;
+$ccblack-600: #2B2B2B;
+$ccblack-700: #242424;
+$ccblack-800: #1D1D1D;
+$ccblack-900: #171717;
+$ccblack-900c: rgba(23, 23, 23, 0.5); //Overlay when modals appear
+
+// White Color Palette
+$ccwhite-100: #FFFFFF;
+$ccwhite-0: rgba(255, 255, 255, 0); //BG for tertiary buttons
+
+// Purple Color Palette
+$ccpurple-50: #EAE4F1;
+$ccpurple-100: #DCD4E8;
+$ccpurple-200: #CFC2E0;
+$ccpurple-300: #C1B1D8;
+$ccpurple-400: #B39FD0;
+$ccpurple-500: #A68DC8;
+$ccpurple-600: #987BC1;
+$ccpurple-700: #8A69BA;
+$ccpurple-800: #7D56B3;
+$ccpurple-900: #7049A7;
+
+// Primary Color Palette
+$ccprimary-50: #DEE1F7;
+$ccprimary-100: #C5CCF7;
+$ccprimary-100m: rgba(197, 204, 247, 0.3);
+$ccprimary-200: #ADB6F7;
+$ccprimary-300: #94A0F7;
+$ccprimary-400: #7787F7;
+$ccprimary-500: #6E80F7;
+$ccprimary-600: #6875EE;
+$ccprimary-700: #5E69D2;
+$ccprimary-800: #4F5BC9;
+$ccprimary-900: #3D4AC2;
+
+// Green Color Palette
+$green-50: #F0FDF4;
+$green-100: #DCFCE7;
+$green-200: #BBF7D0;
+$green-300: #86EFAC;
+$green-400: #4ADE80;
+$green-500: #22C55E;
+$green-600: #16A34A;
+$green-700: #15803D;
+$green-800: #166534;
+$green-900: #14532D;
+
+// Blue Color Palette
+$blue-50: #E6EAFD;
+$blue-100: #C2CBFB;
+$blue-200: #91A2F8;
+$blue-300: #5777F4;
+$blue-400: #2E4FF1;
+$blue-500: #0000EE;
+$blue-600: #0000CA;
+$blue-700: #0000A9;
+$blue-800: #000088;
+$blue-900: #00006B;
+
+// Yellow Color Palette
+$yellow-50: #FFFBEB;
+$yellow-100: #FEF3C7;
+$yellow-200: #FDE68A;
+$yellow-300: #FCD34D;
+$yellow-400: #FBBF24;
+$yellow-500: #F59E0B;
+$yellow-600: #D97706;
+$yellow-700: #B45309;
+$yellow-800: #92400E;
+$yellow-900: #78350F;
+
+// Red Color Palette
+$red-50: #FEF2F2;
+$red-100: #FEE2E2;
+$red-200: #FECACA;
+$red-300: #FCA5A5;
+$red-400: #F87171;
+$red-500: #EF4444;
+$red-600: #DC2626;
+$red-700: #B91C1C;
+$red-800: #991B1B;
+$red-900: #7F1D1D;
+
+// Default Foregrounds
+$fg-primary: $ccblack-500;
+$fg-secondary: $ccgrey-500;
+$fg-disabled: $ccgrey-400;
+$fg-accent: $ccblue-700;
+
+// Inverse Foregrounds
+$fg-inverse-primary: $ccwhite-100;
+$fg-inverse-secondary: $ccgrey-100;
+$fg-inverse-tertiary: $ccgrey-200;
+
+// Interactive Foregrounds
+$fg-interactive1-default: $ccwhite-100;
+$fg-interactive2-default: $ccprimary-700;
+$fg-interactive2-hover: $ccprimary-500;
+$fg-interactive2-focus: $ccprimary-800;
+$fg-interactive2-press: $ccprimary-900;
+$fg-interactive3-default: $blue-600;
+$fg-interactive3-hover: $blue-700;
+$fg-interactive3-focus: $blue-700;
+$fg-interactive3-press: $blue-800;
+
+// System Foregrounds - do not use this for text
+$fg-informative-blue: $blue-500;
+$fg-system-success: $green-500;
+$fg-system-warning: $yellow-500;
+$fg-system-danger: $red-600;
+$fg-system-brand: $ccprimary-500;
+
+// Default Backgrounds
+$bg-primary: $ccwhite-100;
+$bg-secondary: $ccblue-50;
+$bg-tertiary: $ccblue-100;
+$bg-accent: $ccblue-500;
+$bg-header: $ccprimary-600;
+$bg-disabled: $ccgrey-200;
+$bg-curtain: $ccblack-900c; //Used as overlay during the presence of a modal
+
+// Input Control Backgrounds
+$bg-inputcontrol-default: $bg-primary;
+$bg-inputcontrol-primary-default: $ccprimary-400;
+$bg-inputcontrol-primary-focus: $ccprimary-500;
+$bg-inputcontrol-primary-press: $ccprimary-700;
+$bg-inputcontrol-primary-hover: $ccprimary-500;
+$bg-inputcontrol-disabled: $ccgrey-50;
+$bg-inputcontrol-off: $ccgrey-400; //Used for "Active & Locked" UI elements that are 'active'
+
+// Primary Button Backgrounds
+$bg-interactive-primary-default: $ccprimary-700;
+$bg-interactive-primary-hover: $ccprimary-800;
+$bg-interactive-primary-focus: $ccprimary-800;
+$bg-interactive-primary-press: $ccprimary-900;
+$bg-interactive-primary-disabled: $bg-disabled;
+
+// Secondary Button Backgrounds
+$bg-interactive-secondary-default: $ccwhite-100;
+$bg-interactive-secondary-hover: $ccprimary-50;
+$bg-interactive-secondary-focus: $ccprimary-50;
+$bg-interactive-secondary-press: $ccgrey-100;
+$bg-interactive-secondary-disabled: $bg-disabled;
+$bg-interactive-secondary-danger: $red-50;
+
+// Tertiary Button Background
+$bg-interactive-tertiary-default: $ccwhite-0;
+
+// Danger Button Backgrounds
+$bg-interactive-danger-default: $red-600;
+$bg-interactive-danger-hover: $red-700;
+$bg-interactive-danger-focus: $red-700;
+$bg-interactive-danger-press: $red-800;
+
+// System Backgrounds
+$bg-system-informative: $ccblue-50;
+$bg-system-success: $green-50;
+$bg-system-warning: $yellow-50;
+$bg-system-danger: $red-50;
+$bg-system-brand: $ccprimary-50;
+
+// Default Borders
+$border-bounds: $ccprimary-100;
+$border-divider: $ccprimary-200;
+$border-focus: $green-500;
+$border-disabled: $ccgrey-400;
+$border-modal: $ccprimary-100m; //used as the border for all modals & popups
+
+// Interactive Borders
+$border-interactive-default: $ccprimary-700;
+$border-interactive-hover: $ccprimary-800;
+$border-interactive-focus: $ccprimary-800;
+$border-interactive-press: $ccprimary-900;
+
+// Input Controls Borders
+$border-inputcontrol-default: $ccprimary-100;
+$border-inputcontrol-hover: $ccprimary-200;
+$border-inputcontrol-press: $ccprimary-500;
+$border-inputcontrol-active: $ccprimary-400;
+
+// Input Controls Selected Borders
+$border-inputcontrols-selected-active: $ccprimary-300;
+$border-inputcontrols-selected-hover: $ccprimary-400;
+$border-inputcontrols-selected-press: $ccprimary-500;
+
+//Systems Border Colors
+$border-system-informative: $blue-500;
+$border-system-success: $green-500;
+$border-system-warning: $yellow-500;
+$border-system-danger: $red-600;
+$border-system-brand: $ccprimary-500;
+
+//Danger Borders
+$border-danger-default: $red-600;
+$border-danger-hover: $red-700;
+$border-danger-focus: $red-700;
+$border-danger-press: $red-800;
+
+// Font sizes
+$font-d1-size: 44px;
+$font-d2-size: 40px;
+$font-h1-size: 36px;
+$font-h2-size: 32px;
+$font-h3-size: 28px;
+$font-h4-size: 24px;
+$font-h5-size: 20px;
+$font-h6-size: 16px;
+$font-bL-size: 20px;
+$font-b1-size: 16px;
+$font-b2-size: 14px;
+$font-b3-size: 12px;
+$font-bbL-size: 20px;
+$font-bb1-size: 16px;
+$font-bb2-size: 14px;
+$font-bb3-size: 12px;
+$font-lL-size: 24px;
+$font-l1-size: 20px;
+$font-l2-size: 16px;
+$font-l3-size: 14px;
+$font-bu1-size: 16px;
+$font-bu2-size: 14px;
+$font-bu3-size: 12px;
+
+// Line heights
+$line-height-default: 1.25;
+$line-height-body: 1.5;
+$line-height-button: 1.0;
+
+// Kerning (Letter Spacing)
+$kerning-default: 0em;
+$kerning-neg: -0.003em;
+$kerning-pos: 0.01em;
+
+// Font weights
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-heading: 700;
+
+//Box Shadow
+$interaction-elevation-1: 2px 2px 8px 0px #E9EAEC;
+$interaction-elevation-2: 4px 4px 16px 4px #E9EAEC;
+$static-elevation-1: 2px 2px 8px 0px #DEE1F7;
+$tooltip-shadow: 4px 4px 8px 0px #DEE1F7;
+$elevation-xs: 1px 1px 4px 0px rgba(34, 34, 34, 0.10);
+$elevation-m: 2px 2px 8px 2px rgba(34, 34, 34, 0.15);
+
+// Divider
+$border-divider: $ccprimary-200;
+
+// Mixin for font styles
+@mixin font-style($size, $line-height, $kerning, $weight: null) {
+    font-size: $size;
+    line-height: $line-height;
+    letter-spacing: $kerning;
+    @if $weight {
+        font-weight: $weight;
+    }
+}
+
+// Classes
+.font-d1 {
+    @include font-style($font-d1-size, $line-height-default, $kerning-default);
+}
+.font-d2 {
+    @include font-style($font-d2-size, $line-height-default, $kerning-default);
+}
+.font-h1 {
+    @include font-style($font-h1-size, $line-height-default, $kerning-neg, $font-weight-heading);
+}
+.font-h2 {
+    @include font-style($font-h2-size, $line-height-default, $kerning-neg, $font-weight-heading);
+}
+.font-h3 {
+    @include font-style($font-h3-size, $line-height-default, $kerning-neg, $font-weight-heading);
+}
+.font-h4 {
+    @include font-style($font-h4-size, $line-height-default, $kerning-neg, $font-weight-heading);
+}
+.font-h5 {
+    @include font-style($font-h5-size, $line-height-default, $kerning-neg, $font-weight-heading);
+}
+.font-h6 {
+    @include font-style($font-h6-size, $line-height-default, $kerning-neg, $font-weight-heading);
+}
+.font-bL {
+    @include font-style($font-bL-size, $line-height-body, $kerning-pos, $font-weight-regular);
+}
+.font-b1 {
+    @include font-style($font-b1-size, $line-height-body, $kerning-pos, $font-weight-regular);
+}
+.font-b2 {
+    @include font-style($font-b2-size, $line-height-body, $kerning-pos, $font-weight-regular);
+}
+.font-b3 {
+    @include font-style($font-b3-size, $line-height-body, $kerning-pos, $font-weight-regular);
+}
+.font-bbL {
+    @include font-style($font-bbL-size, $line-height-body, $kerning-pos, $font-weight-bold);
+}
+.font-bb1 {
+    @include font-style($font-bb1-size, $line-height-body, $kerning-pos, $font-weight-bold);
+}
+.font-bb2 {
+    @include font-style($font-bb2-size, $line-height-body, $kerning-pos, $font-weight-bold);
+}
+.font-bb3 {
+    @include font-style($font-bb3-size, $line-height-body, $kerning-pos, $font-weight-bold);
+}
+.font-lL {
+    @include font-style($font-lL-size, $line-height-default, $kerning-pos, $font-weight-medium);
+}
+.font-l1 {
+    @include font-style($font-l1-size, $line-height-default, $kerning-pos, $font-weight-medium);
+}
+.font-l2 {
+    @include font-style($font-l2-size, $line-height-default, $kerning-pos, $font-weight-medium);
+}
+.font-l3 {
+    @include font-style($font-l3-size, $line-height-default, $kerning-pos, $font-weight-medium);
+}
+.font-bu1 {
+    @include font-style($font-bu1-size, $line-height-button, $kerning-pos, $font-weight-medium);
+}
+.font-bu2 {
+    @include font-style($font-bu2-size, $line-height-button, $kerning-pos, $font-weight-medium);
+}
+.font-bu3 {
+    @include font-style($font-bu3-size, $line-height-button, $kerning-pos, $font-weight-medium);
+}
+
+//scale primitives
+$sc-2: 0.125rem;   // 2px
+$sc-4: 0.25rem;    // 4px
+$sc-2: 0.125rem;   // 2px
+$sc-4: 0.25rem;    // 4px
+$sc-8: 0.5rem;     // 8px
+$sc-12: 0.75rem;   // 12px
+$sc-16: 1rem;      // 16px
+$sc-20: 1.25rem;   // 20px
+$sc-24: 1.5rem;    // 24px
+$sc-28: 1.75rem;   // 28px
+$sc-32: 2rem;      // 32px
+$sc-36: 2.25rem;   // 36px
+$sc-40: 2.5rem;    // 40px
+$sc-44: 2.75rem;   // 44px
+$sc-48: 3rem;      // 48px
+$sc-52: 3.25rem;   // 52px
+$sc-56: 3.5rem;    // 56px
+$sc-60: 3.75rem;   // 60px
+$sc-64: 4rem;      // 64px
+$sc-68: 4.25rem;   // 68px
+$sc-72: 4.5rem;    // 72px
+$sc-76: 4.75rem;   // 76px
+$sc-80: 5rem;      // 80px
+
+//semantic spacing variables
+$spacing-3xs: $sc-2;
+$spacing-2xs: $sc-4;
+$spacing-xs:  $sc-8;
+$spacing-sm:  $sc-12;
+$spacing-md:  $sc-16;
+$spacing-lg:  $sc-20;
+$spacing-xl:  $sc-24;
+$spacing-2xl: $sc-32;
+$spacing-3xl: $sc-40;
+$spacing-4xl: $sc-48;
+$spacing-5xl: $sc-56;
+$spacing-6xl: $sc-64;
+$spacing-7xl: $sc-72;
+$spacing-8xl: $sc-80;
